@@ -4,11 +4,11 @@ import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksConainer,
-  FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
+  // FooterLinksConainer,
+  // FooterLinksWrapper,
+  // FooterLinkItems,
+  // FooterLinkTitle,
+  // FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
@@ -25,23 +25,19 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksConainer>
+        {/* <FooterLinksConainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
               <FooterLink to="/signin">How it worlk</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Caewwes</FooterLink>
-              <FooterLink to="/signin">Invertors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
               <FooterLink to="/signin">How it worlk</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Caewwes</FooterLink>
-              <FooterLink to="/signin">Invertors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
@@ -50,19 +46,15 @@ const Footer = () => {
               <FooterLink to="/signin">How it worlk</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Caewwes</FooterLink>
-              <FooterLink to="/signin">Invertors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
               <FooterLink to="/signin">How it worlk</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Caewwes</FooterLink>
-              <FooterLink to="/signin">Invertors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
-        </FooterLinksConainer>
+        </FooterLinksConainer> */}
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
