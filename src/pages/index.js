@@ -4,11 +4,12 @@ import Navber from "../components/Navber";
 import VideoSection from "../components/VideoSection";
 import InfoSection from "../components/InfoSection";
 import Services from "../components/Services";
+import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 
 import {
   homeObjecOne,
-  homeObjecTwo,
+  // homeObjecTwo,
   // homeObjecThree,
 } from "../components/InfoSection/Data";
 
@@ -26,7 +27,8 @@ const Home = () => {
       <VideoSection />
       <InfoSection {...homeObjecOne} />
       <Services />
-      <InfoSection {...homeObjecTwo} />
+      <ContactSection />
+      {/* <InfoSection {...homeObjecTwo} /> */}
       {/* <InfoSection {...homeObjecThree} /> */}
       <Footer />
     </>
